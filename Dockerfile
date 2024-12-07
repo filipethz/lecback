@@ -1,5 +1,5 @@
 # Etapa 1: Construir o aplicativo Go
-FROM golang:1.20-alpine as builder
+FROM golang:1.21-alpine as builder
 
 # Instalar dependências necessárias (como git) para o Go buscar pacotes
 RUN apk add --no-cache git
